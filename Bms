@@ -17,6 +17,16 @@ class account
     int i;
     unsigned long long int ph_no,phone;
 
+     
+     void pattern()
+     {
+         int a=80;
+         for(int i=0;i<a;i++)
+             {
+                cout<<"*";
+             }
+            cout<<endl;
+     }
      void pat()
      {
          int a=6;
@@ -24,15 +34,6 @@ class account
              {
                 cout<<".";
                 Sleep(1000);
-             }
-            cout<<endl;
-     }
-     void pattern()
-     {
-         int a=80;
-         for(int i=0;i<a;i++)
-             {
-                cout<<"*";
              }
             cout<<endl;
      }
