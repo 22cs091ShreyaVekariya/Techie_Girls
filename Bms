@@ -595,3 +595,4 @@ int main()
 
     return 0;
 }
+//this code is for the bank management system
